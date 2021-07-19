@@ -1,0 +1,380 @@
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.header__main {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  opacity: 700;
+  padding: 5px;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  width: 100%;
+  z-index: 900;
+}
+
+.header__left_icon > img {
+  width: 100%;
+  max-width: 150px;
+  object-fit: contain;
+}
+
+.header__right_icon > img {
+  width: 100%;
+  max-width: 60px;
+  object-fit: contain;
+}
+
+.alert_box {
+  width: 100%;
+  background-color: #00a651;
+  display: flex;
+  padding: 3px;
+  margin-top: 10vh;
+}
+
+.alert_box_left {
+  width: 70%;
+}
+
+.alert_box_left > p {
+  color: white;
+  margin-left: 4px;
+  font-weight: 700;
+  font-size: 0.7rem;
+  font-family: sans-serif;
+}
+
+.alert_box_right {
+  width: 30%;
+}
+
+.alert_box_right > p {
+  color: white;
+  font-weight: 700;
+  font-size: 0.7rem;
+  font-family: sans-serif;
+  text-align: right;
+}
+
+.greeting_section > p {
+  margin-left: 10px;
+  line-height: 20px;
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.congra_text {
+  font-size: 1.5rem;
+  font-weight: 550;
+  margin-bottom: 10px;
+}
+
+.lulu_image_section {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.lulu_image_section > img {
+  width: 100%;
+  object-fit: contain;
+}
+
+/* Lulu Question Section */
+.questions_section {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.question_p {
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.questions_section > p {
+  font-family: sans-serif;
+  font-size: 0.9rem;
+  height: 3px;
+}
+
+.questions_section > button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #00a651;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 2px 3px 6px black;
+  border: none;
+  animation-name: buttonsBlowUp;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+}
+
+@keyframes buttonsBlowUp {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1000;
+  }
+}
+
+/* Footer Section */
+footer {
+  padding-top: 10px;
+}
+
+footer > p {
+  text-align: center;
+}
+
+/* Gift Section */
+#gift-section-div {
+  display: none;
+}
+#main-section {
+  display: grid;
+}
+
+.gift-section {
+  margin-top: 20px;
+  place-items: center;
+  display: none;
+  animation-name: giftBox_animation;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes giftBox_animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1000;
+  }
+}
+
+.gift-row {
+  display: flex;
+  position: relative;
+  height: 25vh;
+}
+
+.gift-box > div > img {
+  max-width: 200px;
+}
+
+/* Gift Box */
+#gift-one {
+  position: relative;
+  transition: all 4s;
+}
+#gift-two {
+  position: relative;
+}
+#gift-three {
+  position: relative;
+}
+#gift-four {
+  position: relative;
+}
+#gift-five {
+  position: relative;
+}
+#gift-six {
+  position: relative;
+}
+#gift-seven {
+  position: relative;
+}
+#gift-eight {
+  position: relative;
+}
+#gift-nine {
+  position: relative;
+}
+#gift-ten {
+  position: relative;
+}
+#gift-eleven {
+  position: relative;
+}
+#gift-twelve {
+  position: relative;
+}
+
+@keyframes openingGiftBox {
+  from {
+    top: 0;
+  }
+  to {
+    top: -35px;
+  }
+}
+
+/* Gift parts */
+.gift-body {
+  position: relative;
+  top: -150px;
+}
+
+.gift-box {
+  width: 15vw;
+}
+
+/* Alerts Notifcations */
+#two-chances-left {
+  display: none;
+  place-items: center;
+  margin-top: 10px;
+}
+.two-chances-left {
+  display: grid;
+  place-items: center;
+  background-color: white;
+  padding: 50px;
+  border-radius: 20px;
+  border: 1px solid black;
+  animation-name: popUpAlert;
+  animation-duration: 0.6s;
+  animation-timing-function: ease;
+  font-family: sans-serif;
+}
+.two-chances-left > img {
+  max-width: 100px;
+}
+.two-chances-left > button {
+  width: 150px;
+  height: 50px;
+  background-color: #00a651;
+  border: none;
+  border-radius: 4px;
+}
+
+@keyframes popUpAlert {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+#win-iphone {
+  display: none;
+  place-items: center;
+  margin-top: 10px;
+  position: relative;
+  top: -50px;
+  z-index: 1;
+}
+.win-iphone {
+  display: grid;
+  place-items: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid black;
+  animation-name: rewardAnimation;
+  animation-duration: 0.9s;
+  animation-timing-function: ease;
+  font-family: sans-serif;
+  transform: rotate(360deg);
+}
+.win-iphone > button {
+  width: 150px;
+  height: 50px;
+  background-color: #00a651;
+  border: none;
+  border-radius: 4px;
+}
+
+@keyframes rewardAnimation {
+  from {
+    transform: rotate(0deg) scale(0);
+  }
+  to {
+    transform: rotate(360deg) scale(1);
+  }
+}
+
+/* Congragulation section */
+
+#congragulation-section {
+  display: none;
+}
+.congragulation-section {
+  display: grid;
+  place-items: center;
+}
+
+.congragulation-section > h1 {
+  font-family: sans-serif;
+  font-size: 3rem;
+}
+
+.congragulation-section > img {
+  animation: mobilePhoneFloatAnimation 1.4s infinite;
+}
+
+@keyframes mobilePhoneFloatAnimation {
+  0% {
+    transform: scale(0.4);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.4);
+  }
+}
+
+.rules-div {
+  background-color: ;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.rules-div > a {
+  text-decoration: none;
+  width: 400px;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #00a651;
+  color: white;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+
+@media only screen and (max-width: 700px) {
+  .gift-extra {
+    display: none;
+  }
+
+  .gift-section {
+    display: block;
+  }
+
+  .gift-box {
+    width: 27vw;
+  }
+
+  .gift-box > div > img {
+    max-width: 150px;
+  }
+
+  .gift-body {
+    top: -120px;
+  }
+
+  .gift-row {
+    height: 22vh;
+  }
+}

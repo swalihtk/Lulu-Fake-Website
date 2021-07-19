@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <link rel = "icon" href = 
+"data:image/png;base64,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" 
+        type = "image/x-icon">
+    <title>Lulu Fake Website</title>
+</head>
+<body>
+    <header class="header__main">
+        <div class="header__left_icon">
+            <img src="https://1.bp.blogspot.com/-QOU7jFO472s/YOxS2o1WSQI/AAAAAAAACQI/iGpM98u03bkV8g3Uj3r632XtmVZf8TaIQCLcBGAsYHQ/s16000/left.png" alt="Lulu Logo"/>
+        </div>
+        <div class="header__right_icon">
+            <img src="https://1.bp.blogspot.com/-rIuoLvtDPuo/YOxS3uTQddI/AAAAAAAACQc/G8iGpAPwPVQxUCnPtodsFVcqigObhokBACLcBGAsYHQ/s16000/right.png" alt="lulu market"/>
+        </div>
+    </header>
+
+    <div class="alert_box">
+        <div class="alert_box_left">
+            <p>🎉Lulu Hypermarket 20th Anniversery Celebration🐱‍💻</p>
+        </div>
+        <div class="alert_box_right">
+            <p>16 July, 2021</p>
+        </div>
+    </div>
+    
+    <!-- Main Section -->
+    <div id="main-section">
+    <section class="main-section">
+        <div class="greeting_section">
+            <p>
+                <span class="congra_text">Congratulations!</span><br/><br/>
+                LuLu Hypermarket 20th Anniversary Celebration!<br/>
+
+                Through the questionnaire, you will have a chance to get Huawei Mate 40 Pro 8GB + 256GB (bright black) .
+                
+            </p>
+        </div>
+        <div class="lulu_image_section">
+            <img src="https://1.bp.blogspot.com/-Uv8Z0l2s6us/YOxbG7YEGCI/AAAAAAAACQ0/7yCJExJ-nSUDsmxPNeFZ3Qnmrck8RoX8wCLcBGAsYHQ/s16000/1st.jpg" alt="lulu image"/>
+        </div>
+        <div class="questions_section">
+            <p><span class="question_p">Question <span id="question_count">1</span> of 4</span> :
+            <span id="question">Do you Know Lulu Super Market?</span>
+            </p>
+            
+        </div>
+    </section>
+    </div>
+    <!-- Alert Section -->
+    <div id="two-chances-left">
+        <div class="two-chances-left">
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxIREBIREBAQEBAREREQEBAQEQ8REBUQFxEWFxUTFRYYHSgjGCYlGxYVIT0iJSkrLi4uGB8zRDMsOCgtLysBCgoKDg0OGxAQGzElICYtMi8tLS0tKy0tLS0tLS0tLS8tLS03LS0tLTItLS0tLS0tLS0tLS0tKy8tLS0tLS0tLf/AABEIAMUA/wMBIgACEQEDEQH/xAAcAAEBAAMAAwEAAAAAAAAAAAAABwEFBgMECAL/xABEEAABAwEEBAoJAgQEBwAAAAABAAIDEQQFEiEGEzFRBxQXIkFhcYGR0SMyUlNUkqGjwYKxYmN0szM04eJCQ0SiwvDx/8QAGgEBAAIDAQAAAAAAAAAAAAAAAAMFAgQGAf/EADwRAAIBAgIFCQYEBQUAAAAAAAABAgMEESEFFDFRcRIVQVJhgaHB0QYTMpGisSIjkvAzQmKC4SRysuLx/9oADAMBAAIRAxEAPwC4oiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCLW37e0dkgdNJsbk1opic87GivSVHL70ttVpeayvjZXmxxudG1o7qF3aVDUrRgWVhoureYuOUV0vf2by6VWVBrq0mtVmcHMmeRXNr3GRjhuIOzuoVX9Gr8jtkIlZzXA4ZIyalj93XvqlOtGeS2mV/omtZpSecdmKx29qfh0G6REUxVhERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBYWVyXCDpBxWz6thpNPVrd7Wf8b/DIdZWMpKKxZLQoTr1I04bWcPwh6QcZn1cZrDCS0bnP2Pd3bPHesaA6Mi1yOfKDqI6VGzE4jJlezM929c3YLI6aVkbG1fIQwDrcenqG3sBV3uC6mWSzsgZnhHOd0uec3OPaVpUourNykdbpK4jo61jb0XhJrJ9OHTLi3+8ibcIOirbNhns7cMLyGvZmQyXOhFeg7O3tWq0Iv42S0tLj6GSjJR0BpOTqfwn6VVlvKxMnifDIKskaWnZ4js2qD3zdr7NO+F/rNdQmmTmnNrh2j8pXh7uSlEx0TdRvbeVtWzaXe1v4p+R9AsdUAg1BzB6l+lwvBnpBrouLSH0kIGAna6L84dnZRd2t2E1NYo5a5t529WVKe1eO594REWRAEREAREQBERAEREAREQBERAEREAREQBERAEREARFhAeC2WlsUbpHkNYxpc5x2BoFSoTpLe7rXaXyuyBOCNvsxgnAPz2krs+FDSD/o43bKPnI8WM/J7lyOityG2WlsWYZ/iSuHQwEVz3nZ39S0biblLkR/bOu0JaxtqErurlisuyPqzteC/R/C02yQHE8FkIPQyvOf30p2dq7C9L9s9moJpmMJ2NrV5HU0Zr3oYmsaGtAa1oDWgZAAbAFCtLJHOt1oLiS7Xytz2UD6NHcKKWUvcQSRXW1Hna7nOq8FhjluxwSWJY7s0is1oOGGZjnbcBq19N4a6hK5/hLuDXwcYYPSQgl4AqXQipI7tvipddkjmyxOYS1wkZhINCDiFP3X0O4VFDsOSU5++i1IXttzVcQqUpY8cO9ZbU8T57ui8H2aaOZnrMfWlcnDYWnqIqFebqt7LRCyaM1ZI0OG8HpB6wclHtOrg4paDgFIZMUkW5tTzm9xPgRuW24ML/1chs0h5kxLoyTk2agAb1YgPEdaioScJ8iRZ6Xt4XttG6o7UseMenvTx8SsIsLK3jjwiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgMLU6SXw2yWd8zqEgYY2+1IQcLfz2ArbFRfhA0g41aNWw1ghJaymxztj3/gdQ61FWqciOPSWOi7LW66i/hWcuG7veRzlondLIXvJc97y5x6S4ncrNoLcXFLMMY9NLSSTeMuazuH1JXEcGtwa+bjEjfQwkFtRk+ba35dveFXFBbU/52WvtBe4tWsNi2+S7l48AoRpo2l4WofzXHxAP5V3UR4Q48N4z/wAWrd9to/Cyul+FcSH2clhcSX9PmjV6Px4rXZ275of7jF9BUUG0QZit9lH85h8DX8K9Ly0WTZJ7Sy/Oguzz/wAGj0suUWyzPiyDxz4nHokGzuOzvUOe10byCC17H0I2OaWn6EEL6MKl/Cho/heLXGOY8hk4A2Pzwv79naBvS5p4rlI80Bfe7nq89ktnHd3/AHOv0Mv0WyzNe4jWs5kzf4hsd3jP/wCLolDNDb9NjtTXH/DfSOUfyycnfp29lVb43ggEEEEAgjYQelS0KnLjntRoaWsdVr/h+GWa813fbA8iIimKsIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCLBXr221shjfLI7CyNpe4noAFUCTeSOX4RL/4tZ9XG6k0wIBG1sdDid+B1nqUou6xPmmZFGMTpHhgHQOs9QFT3L2NIb2fa7Q+Z+xzsLW+ywHmt8PqSqBwY6P4GG1yNo+QFsQO0R1FXfqI8B1qveNaph0HawUdE2Lk/jfjJ7FwS+zOwuS7GWWCOFmxgzPS5xzc49pqVsFgLKsFkcXKTk3KTxbMKOcKLKW8n2oYj9HD8KxqScLLKWxh9qBn0c9a918Bdez8sLz+1+pqtAIsV4Wfqc53hG5XFRngxZW8Wfwsld/2Af+Ssy8tfgJPaJ/6pLdFfdherb7GyaJ8UgxMkaWuHUV7SLZKFNp4o+fL9ut9lnkhfmWu9bewmrXd4+oKo3Bjf+siNlkPpIR6OvTFu/Ts7KL2uEa4OMQa5jazQAkgCpdEM3DrI2jv3qVXZbnwTMljNHRvxDcegg9RBI71Xv8ip2eR2kXHS1jg/jXhJL7S83uy+hwsr0LovFlphZPGate2tOkHpaesHJe8rA4uUXFtPajKIiHgREQBERAEREAREQBERAEREAREQGCplwoaQVIscbsm0dOR7W1rPz4LtdKL5bZLM6U0LzzIm+1KQaD9z2BQyWR0shc4l0j31J2l1T+StS5qYLkrpOi0BY+8qaxNZR2dr/wAfc22iFyG2WlrDXVt58rt0Y6O85eO5XGKINaGtADWgAAZAAbAtBoTcfFLMA4emlpJKdtHUyZXcBl213rpFJQp8iOe00tL32tV/wv8ADHJdu99/2wMLKIpyqMKWcLzPT2Y743jwf/uVUU24Ymf5R39Q3x1Z/CguP4bLbQbwvof3f8WavgojrbXO3WeTxL4/JV1SvggZ6e0O3RgeMn+iqiW38Mz0+8b2XCP2QREU5TGKKK6e3BxW0FzBSCWr2bm585ndXLqPUrWtNpTc7bXZnxHJ3rRO9mQbD2HYeolRVqfLjltLLRd9qldSfwvJ8N/c8+GJPeDO/wDUzcWkPo5jzCTk2bmho/UMu0Deq0F85zxOieWuBa9jy0jYWvafMK06E39xyzguPpoqMlHX0P7x9aqG1qfyMs/aCxSkrmGx7cN/Q+9ePE6RERbZzQREQBERAEREAREQBERAEREAWCsri+Ea/uLwaljqTTgio2tizxO79g7TuWM5KKxZPbW87irGlDa/233I4fT2/wDjdoIYaww1bHuJrzn9+zsHWtlwZ3BrpeMyN9HARq67DN/t29pG5clddgfaJo4mCrnvDeoDpceoCp7leLnu1lmgjgjHNjFOipdtLj1kknvWlRi6k+XI6rS1xCxtY2tHa1hwXS+LeXz7D30RFvnHBERAYK0+kdywWuMNnqAw4mvDsJaaUOezuK3BUg4TL0kfazDic2OHCGtBOFzi0OLiOnbTqooq01COLWJYaMtalxcKNOXJazx3cCg6NXDZrI13FyX46Ynl4eTTYMsgPNb9RHQO85IbZExrnauV4jeypwkHYabwentVuXlGalHJYGelbSpb1/zJ8ptY49O7P5cMAiIpisCwsogJjwoaP0ItkYyJDJgPazwyfg9y5bRC/DY7S1//AC3UZKN8ZO3uOfjvVutllZLG6KRocx7S1wPSCFCNIbpfZLQ6F9ThdVrvaYTzXf8AvSCtGvBwkpx/bOu0LcxureVpVzwXzj/1L3DIHNDmkFrgHAjYQRUELyqf8GOkGNhskh58YxQ16Y+lv6f2PUu/C24TU44o5q7tpW1aVKXR4roZlERZmsEREAREQBERAEREAREQHjkfQEnYASVA9ILydarTLKTXEXasdAaHUYPD9yrzaosTHN9prm+Iovnu2WZ0Uj43ghzHOY4HbUOp/r3rTu8cEdP7NRg51JPakvk3n5FO4Mbg1UXGpB6SQFsddrYajP8AUR4ALvFH7u4RLRDEyLVRPDGhjS5rwcIFBWjty9vlQtHuIfu+ayp1qcY4IivNE39xWlUklm+stnR4FWRSjlQtHuIfu+acqFo9xD93zWes0zW5hvuqv1R9SropRyoWj3EP3fNOVC0e4h+75prNMcw33VX6o+pVlyeluhrLa4Sh+qlAwk4cTXNGzEOrPPrXLcqFo9xD93zTlQtHuIfu+axlXpSWDJaGiNJUJqpTSTX9UTotFNBmWR4lkfrZW1DKNwsbUAE0qanau0Up5ULR7iH7vmscqFo9xD93zSNalFYI9uNE6SuJ8urg3/uj/wCFXRSjlQtHuIfu+acqFo9xD93zWWs0yHmG+6q/VH1KuilHKhaPcQ/d805ULR7iH7vmms0xzDfdVfqj6lWK4/hDuHjNn1rBWaAFwptdHnib9Kjs61zXKhaPcQ/d8147Rwl2lzS0RQMJBGKjzSo3YljOvTlFpk1tojSFCrGrBLFPrI5C7rY+CZksZo5jw5vXns7xUd6+gLDahLEyVvqyMa8dhFV88xtLnANBccVGtG0uJyA719AXJZTDZoYnetHExju0NFVHaN5m57SxhhTl05/LLz2HvoiLdOUCIiAIiIAiIgCIiAIiIAua0i0Qs9sON2KOWlNZHTMbnA5O/frXSrC8lFSWDJKVapRmp03g+wmEnBfJXm2mOnRVj6/uvzyXS/ExfJJ5qpIodXp7iy58vuv9MfQlvJdN8TF8knmnJdN8TF8knmqkiavT3Dny+6/0x9CW8l03xMXySeacl03xMXySeaqSJq9PcOfL7r/TH0JbyXTfExfJJ5pyXTfExfJJ5qpImr09w58vuv8ATH0JbyXTfExfJJ5pyXTfExfJJ5qpImr09w58vuv9MfQlvJdN8TF8knmnJdN8TF8knmqkiavT3Dny+6/0x9CW8l03xMXySeacl03xMXySeaqSJq9PcOfL7r/TH0JbyXS/ExfJJ5rLeC6TptMdOpj1UUTV6e4c+X3X+mPocpo5oTZ7I4S1M0o9VzwA1ppSrGjZ05mpXVrCypYxUVgiurV6lefLqSxYREWREEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAeKKUOaHNIc1wDmuaQWlpFQQRtyXlWu0c/ydl/poP7TVsUAREQBERAEREARFpbzvrVOLGRuc9r7ODUNAc2SZjCGVcCTR231a9O0IDdIufl0mj1RkjjkkNS0R8xrsQjbIQSTQUDt+0FZj0ibiDJIZmOMr42tpG84WPa0yHA40ALmjft2gEoDfotDNpG0Rue2GZxELp2B2qZjYK0oS7poT1DbSor+zpBGHBurmxucWsbhjq+Rrg18bTipVpNCSQMjQkBAbtFpruvpsjZi/m8XdKJTQgNa17wAc6k4WgmmWa/EukUbBV8czAGte8lrDgD8WrxUcfWwmlK06aVQG8RaqxXwyV5ZglY5rXO57RnhIDgMJOzE3xyrnT92i8CNQWMLmTPa0ucTGWNc2rThIqSTTI0pn2EDZIuatekUkeLFA2jHYS5sjnMxUB1VQz16kCmypArVZj0je7WYbPXBJGATIWgxundGX5t51MNebiBxAV20A6RFp7TekjeMejY0QBrgXyO50Za4l3NaaGrTQZ1y2HJepBpBK57o+LtEjWVPpHlmNur1jQ7V8+mN2TanmZgVCA6NForo0ibO9jMJYXRgknGW67CHuha7DhJa01OYOezI03qAIiIAiIgCIiAIiIDXaOf5Oy/00H9pq2KIgCIiAIiIAiIgC9KSwROfrHRtc8YaE50LXBwI3Ztaf0jciIDwG57Pn6FnqEdOwih+mVV5DdcOLFgGIOD61dXEaV6f4WntAKyiAxLdkJDQY2kYNUAfVDCKEAdhI71h1zQGpMTamlTnXIggg1yNWtNRnkERAfuO7Ym+rG1tQQaZVBLjQ7xVzjQ714jctnyGpYaANFanmmoAOedATTdXKiwiA9uOyRtfiaxodzucBnziC7xwt8Fi2WNkmHGCcDsTaOc2jt+RREB47NdULAAxgDQ8SBtXFofUmoBNBm4ntzXjfc8FHejHOIc7CXNqQS8bDkMRJpsqaoiA8gu2LE52CrnFhcS5xqWODmGhPQQCvxLdMDnOc6Jpccy7OtatNRuNWtNRnzRuREB+oLthje0siY1wFAQKUGEDIbK0AFdtAvfREAREQBERAEREAREQH//2Q==" alt="" />
+            <h1>Unfortunately...</h1>
+            <p>Sorry, the box you selected is empty. You still have 2 chances! Good luck!</p>
+            <button onclick="toSecondChance()">Ok</button>
+        </div>
+    </div>
+    
+    <!-- Alert Win Mobile Phone -->
+    <div id="win-iphone">
+        <div class="win-iphone">
+            <img src="https://1.bp.blogspot.com/-hQIjx5l_VY8/YOxS3vEAejI/AAAAAAAACQY/t52TBMwQnoMqRoMwFkEoXSoOcwEI8SClwCLcBGAsYHQ/s16000/outbox.png" alt="" />
+            <h1>Congratulation!</h1>
+            <strong>You did it! You won Huawei Mate 40 Pro 8GB + 256GB (bright black)</strong>
+            <p>*** THE RULES ***<br/>
+
+                1. You must tell 5 groups or 20 friends about our promotions.<br />
+                
+                2. Enter your address and complete registration.<br />
+                
+                3. The gifts will be delivered within 5-7 days
+                
+                </p>
+            <button onclick="winIphoneClick()">Ok</button>
+        </div>
+    </div>
+
+    <!-- Gift boxes -->
+    <div id="gift-section-div">
+    <section class="gift-section" id="gift-section">
+            <div class="gift-row">
+                <div class="gift-box" onclick="openGiftOne()">
+                    <div class="gift-top" id="gift-one">
+                        <img src="https://1.bp.blogspot.com/-ZzX4hWM5sZo/YOvZXYwckaI/AAAAAAAACPg/QX789eKNG6APaHiRQ7UFroXGpLAuLo-NwCLcBGAsYHQ/s16000/box1.png" alt=""/>
+                    </div>
+                    <div class="gift-body">
+                        <img src="https://1.bp.blogspot.com/-rLxlOZPzTEY/YOvZXqHBzpI/AAAAAAAACPk/KhGSFndkcx4uA02905GMtoGK6L-JAq1RACLcBGAsYHQ/s16000/box3.png">
+                    </div>
+                </div>
+                <div class="gift-box" onclick="openGiftTwo()">
+                    <div class="gift-top" id="gift-two">
+                        <img src="https://1.bp.blogspot.com/-ZzX4hWM5sZo/YOvZXYwckaI/AAAAAAAACPg/QX789eKNG6APaHiRQ7UFroXGpLAuLo-NwCLcBGAsYHQ/s16000/box1.png" alt=""/>
+                    </div>
+                    <div class="gift-body">
+                        <img src="https://1.bp.blogspot.com/-rLxlOZPzTEY/YOvZXqHBzpI/AAAAAAAACPk/KhGSFndkcx4uA02905GMtoGK6L-JAq1RACLcBGAsYHQ/s16000/box3.png">
+                    </div>
+                </div>
+                <div class="gift-box" onclick="openGiftThree()">
+                    <div class="gift-top" id="gift-three">
+                        <img src="https://1.bp.blogspot.com/-ZzX4hWM5sZo/YOvZXYwckaI/AAAAAAAACPg/QX789eKNG6APaHiRQ7UFroXGpLAuLo-NwCLcBGAsYHQ/s16000/box1.png" alt=""/>
+                    </div>
+                    <div class="gift-body">
+                        <img src="https://1.bp.blogspot.com/-rLxlOZPzTEY/YOvZXqHBzpI/AAAAAAAACPk/KhGSFndkcx4uA02905GMtoGK6L-JAq1RACLcBGAsYHQ/s16000/box3.png">
+                    </div>
+                </div>
+                <div class="gift-box gift-extra" onclick="openGiftFour()">
+                    <div class="gift-top" id="gift-four">
+                        <img src="https://1.bp.blogspot.com/-ZzX4hWM5sZo/YOvZXYwckaI/AAAAAAAACPg/QX789eKNG6APaHiRQ7UFroXGpLAuLo-NwCLcBGAsYHQ/s16000/box1.png" alt=""/>
+                    </div>
+                    <div class="gift-body">
+                        <img src="https://1.bp.blogspot.com/-rLxlOZPzTEY/YOvZXqHBzpI/AAAAAAAACPk/KhGSFndkcx4uA02905GMtoGK6L-JAq1RACLcBGAsYHQ/s16000/box3.png">
+                    </div>
+                </div>  
+            </div>
+           
+            <!-- Second Row-->
+            <div class="gift-row">
+                <div class="gift-box" onclick="openGiftFive()">
+                    <div class="gift-top" id="gift-five">
+                        <img src="https://1.bp.blogspot.com/-ZzX4hWM5sZo/YOvZXYwckaI/AAAAAAAACPg/QX789eKNG6APaHiRQ7UFroXGpLAuLo-NwCLcBGAsYHQ/s16000/box1.png" alt=""/>
+                    </div>
+                    <div class="gift-body">
+                        <img src="https://1.bp.blogspot.com/-rLxlOZPzTEY/YOvZXqHBzpI/AAAAAAAACPk/KhGSFndkcx4uA02905GMtoGK6L-JAq1RACLcBGAsYHQ/s16000/box3.png">
+                    </div>
+                </div>
+                <div class="gift-box" onclick="openGiftSix()">
+                    <div class="gift-top" id="gift-six">
+                        <img src="https://1.bp.blogspot.com/-ZzX4hWM5sZo/YOvZXYwckaI/AAAAAAAACPg/QX789eKNG6APaHiRQ7UFroXGpLAuLo-NwCLcBGAsYHQ/s16000/box1.png" alt=""/>
+                    </div>
+                    <div class="gift-body">
+                        <img src="https://1.bp.blogspot.com/-rLxlOZPzTEY/YOvZXqHBzpI/AAAAAAAACPk/KhGSFndkcx4uA02905GMtoGK6L-JAq1RACLcBGAsYHQ/s16000/box3.png">
+                    </div>
+                </div>
+                <div class="gift-box" onclick="openGiftSeven()">
+                    <div class="gift-top" id="gift-seven">
+                        <img src="https://1.bp.blogspot.com/-ZzX4hWM5sZo/YOvZXYwckaI/AAAAAAAACPg/QX789eKNG6APaHiRQ7UFroXGpLAuLo-NwCLcBGAsYHQ/s16000/box1.png" alt=""/>
+                    </div>
+                    <div class="gift-body">
+                        <img src="https://1.bp.blogspot.com/-rLxlOZPzTEY/YOvZXqHBzpI/AAAAAAAACPk/KhGSFndkcx4uA02905GMtoGK6L-JAq1RACLcBGAsYHQ/s16000/box3.png">
+                    </div>
+                </div>
+                <div class="gift-box gift-extra" onclick="openGiftEight()">
+                    <div class="gift-top" id="gift-eight">
+                        <img src="https://1.bp.blogspot.com/-ZzX4hWM5sZo/YOvZXYwckaI/AAAAAAAACPg/QX789eKNG6APaHiRQ7UFroXGpLAuLo-NwCLcBGAsYHQ/s16000/box1.png" alt=""/>
+                    </div>
+                    <div class="gift-body">
+                        <img src="https://1.bp.blogspot.com/-rLxlOZPzTEY/YOvZXqHBzpI/AAAAAAAACPk/KhGSFndkcx4uA02905GMtoGK6L-JAq1RACLcBGAsYHQ/s16000/box3.png">
+                    </div>
+                </div>  
+            </div>
+
+            <!-- Third Row-->
+            <div class="gift-row">
+                <div class="gift-box" onclick="openGiftNine()">
+                    <div class="gift-top" id="gift-nine">
+                        <img src="https://1.bp.blogspot.com/-ZzX4hWM5sZo/YOvZXYwckaI/AAAAAAAACPg/QX789eKNG6APaHiRQ7UFroXGpLAuLo-NwCLcBGAsYHQ/s16000/box1.png" alt=""/>
+                    </div>
+                    <div class="gift-body">
+                        <img src="https://1.bp.blogspot.com/-rLxlOZPzTEY/YOvZXqHBzpI/AAAAAAAACPk/KhGSFndkcx4uA02905GMtoGK6L-JAq1RACLcBGAsYHQ/s16000/box3.png">
+                    </div>
+                </div>
+                <div class="gift-box" onclick="openGiftTen()">
+                    <div class="gift-top" id="gift-ten">
+                        <img src="https://1.bp.blogspot.com/-ZzX4hWM5sZo/YOvZXYwckaI/AAAAAAAACPg/QX789eKNG6APaHiRQ7UFroXGpLAuLo-NwCLcBGAsYHQ/s16000/box1.png" alt=""/>
+                    </div>
+                    <div class="gift-body">
+                        <img src="https://1.bp.blogspot.com/-rLxlOZPzTEY/YOvZXqHBzpI/AAAAAAAACPk/KhGSFndkcx4uA02905GMtoGK6L-JAq1RACLcBGAsYHQ/s16000/box3.png">
+                    </div>
+                </div>
+                <div class="gift-box" onclick="openGiftEleven()">
+                    <div class="gift-top" id="gift-eleven">
+                        <img src="https://1.bp.blogspot.com/-ZzX4hWM5sZo/YOvZXYwckaI/AAAAAAAACPg/QX789eKNG6APaHiRQ7UFroXGpLAuLo-NwCLcBGAsYHQ/s16000/box1.png" alt=""/>
+                    </div>
+                    <div class="gift-body">
+                        <img src="https://1.bp.blogspot.com/-rLxlOZPzTEY/YOvZXqHBzpI/AAAAAAAACPk/KhGSFndkcx4uA02905GMtoGK6L-JAq1RACLcBGAsYHQ/s16000/box3.png">
+                    </div>
+                </div>
+                <div class="gift-box gift-extra" onclick="openGiftTwelve()">
+                    <div class="gift-top" id="gift-twelve">
+                        <img src="https://1.bp.blogspot.com/-ZzX4hWM5sZo/YOvZXYwckaI/AAAAAAAACPg/QX789eKNG6APaHiRQ7UFroXGpLAuLo-NwCLcBGAsYHQ/s16000/box1.png" alt=""/>
+                    </div>
+                    <div class="gift-body">
+                        <img src="https://1.bp.blogspot.com/-rLxlOZPzTEY/YOvZXqHBzpI/AAAAAAAACPk/KhGSFndkcx4uA02905GMtoGK6L-JAq1RACLcBGAsYHQ/s16000/box3.png">
+                    </div>
+                </div>  
+            </div>
+            
+    </section>
+    </div>
+
+    <!-- Congragulation Section -->
+    <section class="congragulation-section" id="congragulation-section">
+        <h1>Congragulation</h1>
+        <img src="https://1.bp.blogspot.com/-hQIjx5l_VY8/YOxS3vEAejI/AAAAAAAACQY/t52TBMwQnoMqRoMwFkEoXSoOcwEI8SClwCLcBGAsYHQ/s16000/outbox.png" alt="" />
+        <p>Your prize is: Huawei Mate 40 Pro 8GB + 256GB (bright black) , Follow the instructions on the next page to claim your prize !</p>
+
+        <div class="rules-div">
+            <p>1.Share with 5 groups/20 friends (click the "Share" icon below) <br/>
+                2. Click "Continue" and claim your prize.
+            </p><br />
+            <a href="whatsapp://send?text=http://127.0.0.1:5500/" id="share-on-whatsapp"  data-action="share/whatsapp/share" >Whatsapp</a>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer>
+        <p>© 2021 LuLu Hypermarket Inc.</p>
+    </footer>
+</body>
+</html>
